@@ -1,6 +1,6 @@
 ## private 생성자 사용의 필요성
 
-**Util 성 Class**(...helper, ...util, ..) 는 static method 만 제공하기 때문에, 인스턴스가 필요하지 않다.
+**Util성 Class**(...helper, ...util, ..) 는 static method 만 제공하기 때문에, 인스턴스가 필요하지 않다.
 인스턴스 생성은 오히려 가독성을 줄이고 자원을 낭비하는 등의 문제떄문에 권장되지 않는 방법이다.
 따라서 util 성 클래스는 private 기본 생성자를 두도록 한다.
 
